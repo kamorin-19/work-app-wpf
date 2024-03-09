@@ -6,7 +6,13 @@
         xmlns:local="clr-namespace:workout_app"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <DockPanel>
+        <Menu  DockPanel.Dock="Top">
+            <MenuItem Header="Views">
+                <MenuItem Header="WorkOuts" Click="A_Click"/>
+                <MenuItem Header="Excercises" Click="B_Click"/>
+            </MenuItem>
+        </Menu>
+        <ContentControl x:Name="MainContent"/>
+    </DockPanel>
 </Window>

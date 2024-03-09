@@ -7,7 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="Views\Exercise.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ExerciseList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\WorkoutList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Workout.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Exercise.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ExerciseList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\WorkoutList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Workout.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
